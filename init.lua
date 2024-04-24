@@ -118,6 +118,12 @@ vim.opt.clipboard = 'unnamedplus'
 -- Enable break indent
 vim.opt.breakindent = true
 
+-- Changes for default tab and tabstop
+vim.opt.tabstop = 2 -- Always 8 (see :h tabstop)
+vim.opt.softtabstop = 2 -- What you expecting
+vim.opt.shiftwidth = 2 -- What you expecting
+vim.opt.expandtab = true -- Works without this
+
 -- Save undo history
 vim.opt.undofile = true
 
